@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "repository": "IceJagger2026/skills-os",
+  "default_branch": "main",
+  "skills": [
+    {
+      "name": "epub-repair",
+      "path": "epub-repair",
+      "entrypoint": "SKILL.md",
+      "description": "Diagnose and safely repair one EPUB file through a diagnosis-first workflow.",
+      "public_safe": true,
+      "dependencies": {
+        "python": ">=3.10",
+        "packages": []
+      },
+      "install": {
+        "codex_skill_installer": {
+          "repo": "IceJagger2026/skills-os",
+          "path": "epub-repair",
+          "name": "epub-repair"
+        },
+        "git_sparse_path": "epub-repair"
+      }
+    }
+  ]
+}

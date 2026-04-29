@@ -13,6 +13,51 @@ commits.
 | --- | --- |
 | `epub-repair` | Diagnose and safely repair one EPUB file through a diagnosis-first workflow. |
 
+## Installation
+
+This repo is organized as one skill per top-level directory. Each skill contains
+its own `SKILL.md`, optional `scripts/`, optional `references/`, and optional
+`agents/openai.yaml` metadata.
+
+### OpenClaw or Codex-Compatible Installer
+
+Use the GitHub repo plus skill path:
+
+```powershell
+python install-skill-from-github.py --repo IceJagger2026/skills-os --path epub-repair --name epub-repair --method git
+```
+
+If your installer accepts a URL instead of `owner/repo`, use:
+
+```powershell
+python install-skill-from-github.py --url https://github.com/IceJagger2026/skills-os --path epub-repair --name epub-repair --method git
+```
+
+### Hermes or Custom Runtime
+
+Hermes can install from the machine-readable catalog:
+
+```text
+https://raw.githubusercontent.com/IceJagger2026/skills-os/main/skills.json
+```
+
+The catalog gives each skill's `name`, repo `path`, `entrypoint`, Python
+requirements, and installer hints. A minimal Hermes installer only needs to:
+
+1. Read `skills.json`.
+2. Pick the skill by `name`.
+3. Clone or download `path`.
+4. Register `path/SKILL.md` as the skill entrypoint.
+5. Execute bundled scripts relative to that skill directory.
+
+For a Git-only install without a custom catalog parser:
+
+```powershell
+git clone --filter=blob:none --sparse https://github.com/IceJagger2026/skills-os.git
+cd skills-os
+git sparse-checkout set epub-repair
+```
+
 ## Repository Rules
 
 - Do not commit secrets, API keys, access tokens, private SSH keys, cookies, or

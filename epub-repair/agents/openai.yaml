@@ -1,0 +1,7 @@
+interface:
+  display_name: "EPUB Repair"
+  short_description: "Diagnose and safely repair damaged EPUB files."
+  default_prompt: "Use $epub-repair to diagnose this EPUB first, then ask before repairing it."
+
+policy:
+  allow_implicit_invocation: true
