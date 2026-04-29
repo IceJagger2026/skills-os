@@ -1,0 +1,49 @@
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.kdbx
+
+# Local/private skill data
+*.epub
+*.mobi
+*.azw3
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.fixed.*
+diagnosis.md
+repair-log.json
+verify/
+tmp/
+temp/
+out/
+output/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
