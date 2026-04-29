@@ -1,0 +1,35 @@
+{
+  "default_location": "Japan",
+  "ignore_radius": true,
+  "default_output_language": "Chinese",
+  "highest_priority_sources": [
+    "Apple Gift Card",
+    "Apple Store gift cards",
+    "Amazon Japan",
+    "PayPay"
+  ],
+  "medium_priority_sources": [
+    "Rakuten Pay",
+    "d-barai",
+    "au PAY",
+    "AEON Pay",
+    "nationwide supermarkets",
+    "nationwide drugstores",
+    "nationwide restaurants"
+  ],
+  "low_priority_sources": [
+    "7-Eleven",
+    "FamilyMart",
+    "Lawson",
+    "Ministop"
+  ],
+  "convenience_store_include_only_if": [
+    "free item",
+    "buy-one-get-one",
+    "clear discount coupon",
+    "useful daily item discount",
+    "valid today with clear conditions"
+  ],
+  "max_results_min": 10,
+  "max_results_max": 15
+}

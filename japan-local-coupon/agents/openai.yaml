@@ -1,0 +1,4 @@
+interface:
+  display_name: "Japan Local Coupon"
+  short_description: "Find valid Japan coupon campaigns."
+  default_prompt: "Find currently valid Japanese coupons today near Naka-Urawa / Saitama and return the best 10 in Chinese."

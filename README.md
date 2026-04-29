@@ -12,6 +12,7 @@ commits.
 | Skill | Purpose |
 | --- | --- |
 | `epub-repair` | Diagnose and safely repair one EPUB file through a diagnosis-first workflow. |
+| `japan-local-coupon` | Find currently valid Japanese coupons and campaigns with source-backed expiry checks. |
 
 ## Installation
 
@@ -25,6 +26,12 @@ Use the GitHub repo plus skill path:
 
 ```powershell
 python install-skill-from-github.py --repo IceJagger2026/skills-os --path epub-repair --name epub-repair --method git
+```
+
+For the Japan local coupon skill:
+
+```powershell
+python install-skill-from-github.py --repo IceJagger2026/skills-os --path japan-local-coupon --name japan-local-coupon --method git
 ```
 
 If your installer accepts a URL instead of `owner/repo`, use:

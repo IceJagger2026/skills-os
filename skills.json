@@ -21,6 +21,25 @@
         },
         "git_sparse_path": "epub-repair"
       }
+    },
+    {
+      "name": "japan-local-coupon",
+      "path": "japan-local-coupon",
+      "entrypoint": "SKILL.md",
+      "description": "Find currently valid Japanese coupons and campaigns with source-backed expiry checks.",
+      "public_safe": true,
+      "dependencies": {
+        "python": ">=3.10",
+        "packages": []
+      },
+      "install": {
+        "codex_skill_installer": {
+          "repo": "IceJagger2026/skills-os",
+          "path": "japan-local-coupon",
+          "name": "japan-local-coupon"
+        },
+        "git_sparse_path": "japan-local-coupon"
+      }
     }
   ]
 }
