@@ -40,6 +40,25 @@
         },
         "git_sparse_path": "japan-local-coupon"
       }
+    },
+    {
+      "name": "apple-health-export-analysis",
+      "path": "apple-health-export-analysis",
+      "entrypoint": "SKILL.md",
+      "description": "Analyze already-unzipped Apple Health export data with a 30-day default window, source deduplication, daily aggregation, cross-metric reasoning, and actionable health-management insights.",
+      "public_safe": true,
+      "dependencies": {
+        "python": ">=3.10",
+        "packages": []
+      },
+      "install": {
+        "codex_skill_installer": {
+          "repo": "IceJagger2026/skills-os",
+          "path": "apple-health-export-analysis",
+          "name": "apple-health-export-analysis"
+        },
+        "git_sparse_path": "apple-health-export-analysis"
+      }
     }
   ]
 }

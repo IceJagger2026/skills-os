@@ -40,6 +40,16 @@ tmp/
 temp/
 out/
 output/
+analysis-runs/
+**/analysis-runs/
+generated/
+**/generated/
+*.generated.*
+*.analysis.json
+*.summary.json
+*.derived.json
+*.report.html
+*.report.md
 
 # OS/editor noise
 .DS_Store

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple Health Export Analysis"
+  short_description: "Analyze unzipped Apple Health exports."
+  default_prompt: "Use $apple-health-export-analysis to analyze this unzipped Apple Health export folder and produce actionable health-management insights."
