@@ -11,6 +11,7 @@ commits.
 
 | Skill | Purpose |
 | --- | --- |
+| `dan-koe-perspective` | Apply a Dan Koe-inspired perspective to focus, one-person business, writing, and creator entrepreneurship. |
 | `epub-repair` | Diagnose and safely repair one EPUB file through a diagnosis-first workflow. |
 | `japan-local-coupon` | Find currently valid Japanese coupons and campaigns with source-backed expiry checks. |
 | `apple-health-export-analysis` | Analyze unzipped Apple Health exports with a 30-day default window and cross-metric health-management insights. |
@@ -33,6 +34,12 @@ For the Japan local coupon skill:
 
 ```powershell
 python install-skill-from-github.py --repo IceJagger2026/skills-os --path japan-local-coupon --name japan-local-coupon --method git
+```
+
+For the Dan Koe perspective skill:
+
+```powershell
+python install-skill-from-github.py --repo IceJagger2026/skills-os --path dan-koe-perspective --name dan-koe-perspective --method git
 ```
 
 For the Apple Health export analysis skill:

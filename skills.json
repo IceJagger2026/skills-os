@@ -4,6 +4,25 @@
   "default_branch": "main",
   "skills": [
     {
+      "name": "dan-koe-perspective",
+      "path": "dan-koe-perspective",
+      "entrypoint": "SKILL.md",
+      "description": "Apply a Dan Koe-inspired perspective to focus, one-person business, writing, and creator entrepreneurship.",
+      "public_safe": true,
+      "dependencies": {
+        "python": ">=3.10",
+        "packages": []
+      },
+      "install": {
+        "codex_skill_installer": {
+          "repo": "IceJagger2026/skills-os",
+          "path": "dan-koe-perspective",
+          "name": "dan-koe-perspective"
+        },
+        "git_sparse_path": "dan-koe-perspective"
+      }
+    },
+    {
       "name": "epub-repair",
       "path": "epub-repair",
       "entrypoint": "SKILL.md",

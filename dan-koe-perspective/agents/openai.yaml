@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dan Koe Perspective"
+  short_description: "Think with Dan Koe style frameworks."
+  default_prompt: "Use Dan Koe perspective to analyze my direction, focus, writing, or one-person business."
