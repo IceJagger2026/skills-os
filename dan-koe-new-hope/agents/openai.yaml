@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dan Koe New Hope"
+  short_description: "Dan Koe style thinking from local source distillation."
+  default_prompt: "Use Dan Koe New Hope to analyze my focus, writing, one-person business, life direction, or creator strategy."
